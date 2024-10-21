@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    background: url('../imagens/fundo.png') no-repeat top center;
+    background-size: cover;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#celular {
+    position: absolute;
+    width: 302px;
+    height: 584px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url('../imagens/celular.png');
+    
+}
+
+section#redessociais img {
+    width: 40px;
+    padding: 2px;
+    margin-top: 6px;
+}
+
+section#redessociais img:hover {
+    position: relative;
+    top: 3px;
+    left: 3px;
+    
+}
+
+iframe#tela {
+    position: relative;
+    width: 226px;
+    height: 398px;
+    top: 78px;
+    left: 35px;
+}
+
